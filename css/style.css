@@ -1,1 +1,283 @@
 /* ini css */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.home2{
+    padding: 10px 8px 10px 8px;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(163, 190, 126);
+    padding: 5px 12px 5px 12px;
+    border-radius: 5px;
+}
+
+.logo-icon{
+    height: 45px;
+    width: 45px;
+    background-image: url(../assets/logo.jpeg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+nav > a{
+    padding: 3px 20px 5px 20px;
+    border: 1px solid;
+    border-radius: 8px;
+    color: rgb(237, 244, 250);
+    text-decoration: none;
+}
+
+nav > a:hover{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.konten{
+    padding: 20px 35px 20px 35px;
+    background-color: yellow;
+}
+
+.section-konten{
+    padding-bottom: 4px;
+}
+
+.p-lat{
+    padding-top: 10px;
+    padding-bottom: 7px;
+}
+
+.banner-container{
+    height: 430px;
+    width: 100%;
+    border: 1px solid;
+}
+
+.profile{
+    background-color: aqua;
+    margin-top: 40px;
+    margin-bottom: 23px;
+}
+
+.text-profile{
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+
+.p-profile{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.article-profile{
+    display: flex;
+    background-color: blue;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.profile-container{
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+.profile-item{
+    /* background-image: url(../assets/logo.jpeg);
+    background-size: cover; */
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    border-radius: 20% 0;
+}
+
+.message{
+    background-color: green;
+    margin-top: 40px;
+    height: 56vh;
+    margin-bottom: 3rem;
+}
+
+.text-message{
+    background-color: rebeccapurple;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+
+.article-message{
+    background-color: rgb(80, 49, 49);
+    height: 50vh;
+}
+
+.message-container{
+    background-color: gray;
+    display: flex;
+    height: 50vh;
+    text-align: center;
+    align-items: center;
+}
+
+.box-imessage{
+    background-color: pink;
+    flex: 1;
+    height: 100%;
+    align-content: center;
+}
+
+.imessage-container{
+    margin: 30px;
+    background-color: aqua;
+    height: 75%;
+    align-content: center;
+    border-radius: 8px;
+}
+
+.formm{
+    background-color: red;
+    padding: 6px;
+    margin-top: 4px;
+    text-align: center;
+}
+
+.label{
+    background-color: gold;
+    display: inline-block;
+    width: 32%;
+    padding-left: 4px;
+}
+
+/* nama */
+.formm#nama{
+
+}
+.label#label-nama{
+
+}
+.label span#span-nama{
+
+}
+input#input-nama{
+    width: 41%;
+}
+
+/* date */
+.formm#date{
+
+}
+.label#label-date{
+
+}
+.label span#span-date{
+
+}
+input#input-date{
+    width: 41%;
+}
+
+/* gender */
+.formm#gender{
+    display: flex;
+    justify-content: center;
+}
+
+.label#label-gender{
+
+}
+
+label#label-pria{
+    padding-left: 8px;
+}
+
+label#label-wanita{
+    padding-left: 8px;
+}
+
+.label span#span-gender{
+
+}
+
+.box-opsi{
+    display: flex;
+    width: 43%;
+    justify-content: start;
+}
+
+.box-pria{
+    padding-left: 5px;
+}
+
+input#pria{
+
+}
+
+.box-wanita{
+    padding-left: 15px;
+}
+
+input#wanita{
+
+}
+
+/* pesan */
+.formm#pesan{
+
+}
+
+.box-pesan{
+    
+}
+
+.label#label-pesan{
+
+}
+
+.label span#span-pesan{
+    
+}
+
+input#input-pesan{
+    height: 12vh;
+    width: 41%;
+}
+
+/* button */
+button{
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box-omessage{
+    background-color: blue;
+    flex: 1;
+    height: 100%;
+    align-content: center;
+}
+
+.omessage-container{
+    margin: 30px;
+    background-color: aqua;
+    height: 75%;
+    align-content: center;
+    border-radius: 8px;
+}
+
