@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+body{
+    background-color: aliceblue; 
+}
+
 .home2{
     padding: 10px 8px 10px 8px;
 }
@@ -13,9 +17,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(163, 190, 126);
+    background-color: rgb(150, 167, 179);
     padding: 5px 12px 5px 12px;
     border-radius: 5px;
+    border: 1px solid black;
 }
 
 .logo-icon{
@@ -41,7 +46,7 @@ nav > a:hover{
 
 .konten{
     padding: 20px 35px 20px 35px;
-    background-color: yellow;
+    background-color: aliceblue;
 }
 
 .section-konten{
@@ -57,63 +62,207 @@ nav > a:hover{
     height: 430px;
     width: 100%;
     border: 1px solid;
+    background-image: url(../assets/banner.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
 }
 
 .profile{
-    background-color: aqua;
-    margin-top: 40px;
-    margin-bottom: 23px;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    height: 85vh;
+
 }
 
-.text-profile{
+.header-profile{
+    background-color: rgb(150, 167, 179);
+    padding: 15px 35px;
+    height: 20%;
+    align-content: center;
+    border: 1px solid black;
+    border-bottom: 1px dotted black;
+    border-radius: 10px 10px 0 0;
+}
+
+.box-header-profile{
+    padding: 15px;
+    margin-left: 70px;
+    margin-right: 70px;
+    background-image: url(../assets/back.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.article-profile{
+    background-color: rgb(150, 167, 179);
+    height: 80%;
+    align-content: center;
+    padding-left: 35px;
+    padding-right: 35px;
+    border: 1px solid black;
+    border-top: 0;
+    border-radius: 0 0 10px 10px;
+}
+
+.profile-container{
+    display: flex;
+    height: 50vh;
+}
+
+.text-cont-profile{
+    flex: 1;
+    background-color: rgb(206, 192, 192);
+    padding: 20px;
+    align-content: center;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.h3-dilla{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.p-from{
+    margin-bottom: 15px;
+}
+
+.p-about{
+    margin-bottom: 47px;
+    font-size: 15px;
+}
+
+.button-prof-port{
+    width: 95px;
+    color: aliceblue;
+}
+
+.button-prof-port:hover{
+    color: white;
+}
+
+.button-prof-port a{
+    text-decoration: none;
+    color: rgb(206, 192, 192);
+}
+
+.gambar-profile{
+    flex: 1;
+    background-color: rgb(150, 167, 179);
+    padding: 20px;
+    align-content: center;
+    text-align: center;
+    text-align: -webkit-center;
+}
+
+.box-gambar{
+    background-image: url(../assets/profile2.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+    height: 85%;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.text-atas{
+    position: relative;
+}
+
+.p-dilla{
+    background-color: rgb(206, 192, 192);
+    color: rgb(0, 0, 0);
+    padding: 8px;
+    width: 70%;
+    position: absolute;
+    right: 45px;
+    bottom: -15px;
+    border-radius: 15px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.portofolio{
+    background-color: rgb(150, 167, 179);
+    margin-top: 40px;
+    margin-bottom: 23px;
+    border-radius: 10px 10px 10px 10px ;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.text-portofolio{
     text-align: center;
     padding-top: 8px;
     padding-bottom: 10px;
 }
 
-.p-profile{
+.p-portofolio{
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.article-profile{
+.article-portofolio{
     display: flex;
-    background-color: blue;
+    background-color: rgb(206, 192, 192);
     justify-content: space-around;
     text-align: center;
+    align-items: center;
+    height: 35vh;
+    border-radius: 0 0 10px 10px;
+    border-top: 1px dotted black;
 }
 
-.profile-container{
-    padding-top: 25px;
-    padding-bottom: 5px;
-}
-
-.profile-item{
-    /* background-image: url(../assets/logo.jpeg);
-    background-size: cover; */
+.portofolio-item{
+    background-image: url(../assets/porto.jpeg);
+    background-size: cover;
     border: 1px solid black;
     width: 150px;
     height: 150px;
     border-radius: 20% 0;
+    place-content: center;
+    font-size: 15px;
+}
+
+.dearmecca{
+    color: wheat;
+}
+
+.dearmecca a{
+    color: wheat;
+    text-decoration: none;
+}
+
+.dearmecca a:hover{
+    color: rgb(150, 167, 179);
 }
 
 .message{
-    background-color: green;
     margin-top: 40px;
-    height: 56vh;
+    height: 57.1vh;
     margin-bottom: 3rem;
+    border-radius: 10px 10px 10px 10px ;
+    border: 1px solid rgb(0, 0, 0);
 }
 
 .text-message{
-    background-color: rebeccapurple;
+    background-color: rgb(206, 192, 192);
     text-align: center;
     padding-top: 8px;
     padding-bottom: 10px;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 1px dotted black;
 }
 
 .article-message{
     background-color: rgb(80, 49, 49);
     height: 50vh;
+    width: 100%;
+    border-radius: 10px;
 }
 
 .message-container{
@@ -122,34 +271,38 @@ nav > a:hover{
     height: 50vh;
     text-align: center;
     align-items: center;
+    width: 100%;
+    border-radius: 10px;
 }
 
 .box-imessage{
-    background-color: pink;
+    background-color: rgb(150, 167, 179);
     flex: 1;
     height: 100%;
     align-content: center;
+    width: 100%;
+    border-radius: 0 0 0 10px;
 }
 
 .imessage-container{
     margin: 30px;
-    background-color: aqua;
-    height: 75%;
+    background-color: aliceblue;
+    height: 78%;
     align-content: center;
     border-radius: 8px;
 }
 
 .formm{
-    background-color: red;
+    background-color: aliceblue;
     padding: 6px;
     margin-top: 4px;
     text-align: center;
 }
 
 .label{
-    background-color: gold;
+    background-color: aliceblue;
     display: inline-block;
-    width: 32%;
+    width: 25%;
     padding-left: 4px;
 }
 
@@ -158,13 +311,16 @@ nav > a:hover{
 
 }
 .label#label-nama{
-
+    text-align: start;
 }
 .label span#span-nama{
-
+    float: right;
+    padding-right: 5px;
 }
+
 input#input-nama{
     width: 41%;
+    padding-left: 3px;
 }
 
 /* date */
@@ -172,10 +328,11 @@ input#input-nama{
 
 }
 .label#label-date{
-
+    text-align: start;
 }
 .label span#span-date{
-
+    float: right;
+    padding-right: 5px;
 }
 input#input-date{
     width: 41%;
@@ -188,7 +345,7 @@ input#input-date{
 }
 
 .label#label-gender{
-
+    text-align: start;
 }
 
 label#label-pria{
@@ -200,7 +357,8 @@ label#label-wanita{
 }
 
 .label span#span-gender{
-
+    float: right;
+    padding-right: 5px;
 }
 
 .box-opsi{
@@ -235,49 +393,235 @@ input#wanita{
 }
 
 .label#label-pesan{
-
+    text-align: start;
+    vertical-align: top;
 }
 
 .label span#span-pesan{
-    
+    float: right;
+    padding-right: 5px;
 }
 
-input#input-pesan{
+textarea#tarea-pesan{
     height: 12vh;
     width: 41%;
+    padding-left: 3px;
+    padding-top: 4px;
 }
 
 /* button */
 button{
     padding: 5px;
     border-radius: 5px;
-    margin-top: 5px;
+    margin-top: -2px;
+    width: 13%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
+button:hover{
+    background-color: black;
+    color: white;
+}
 
 .box-omessage{
-    background-color: blue;
+    background-color: rgb(150, 167, 179);
     flex: 1;
     height: 100%;
     align-content: center;
+    border-radius: 0 0 10px 0;
 }
 
 .omessage-container{
     margin: 30px;
-    background-color: aqua;
+    background-color: aliceblue;;
     height: 75%;
     align-content: center;
     border-radius: 8px;
 }
 
+footer{
+    background-color: rgb(150, 167, 179);
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 12px 15px 12px;
+    border-radius: 5px;
+}
+
+.text-footer{
+    height: 10vh;
+    font-size: 27px;
+    align-content: center;
+    text-align-last: center;
+}
+
+.text-footer a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.text-footer a:hover{
+    color: rgb(68, 69, 70);
+}
+
+.sosmed{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    place-content: center;
+
+}
+
+.ig{
+    margin-right: 12px;
+}
+
+.sosmed .ig .box-ig{
+    background-image: url(../assets/ig.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.mail{
+    margin-right: 12px;
+}
+
+.sosmed .mail .box-mail{
+    background-image: url(../assets/yt.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.pin{
+
+}
+
+.sosmed .pin .box-pin{
+    background-image: url(../assets/pin.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 950px){
+    .portofolio-item{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .message{
+        margin-bottom: 6rem;
+        height: 95vh;
+        background-color: rgb(150, 167, 179);
+    }
+
+    .article-message{
+        background-color: rgb(150, 167, 179);
+    }
+
+    .message-container{
+        display: grid;
+        height: 90vh;
+        padding: 0;
+        background-color: rgb(150, 167, 179);
+    }
+
+    .box-omessage{
+        border-radius: 20px;
+        background-color: rgb(150, 167, 179);
+    }
+}
+
+@media screen and (max-width: 750px){
+    nav a{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 690px){
+
+    .profile{
+        margin-bottom: 18rem;
+    }
+
+    .box-header-profile{
+        margin: 0;
+    }
+
+    .text-profile{
+        font-size: 20px;
+    }
+
+    .article-profile{
+        height: 100vh;
+    }
+
+    .profile-container{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 90vh;
+    }
+}
+
+@media screen and (max-width: 680px){
+    .profile{
+        margin-bottom: 23rem;
+    }
+
+}
+
+@media screen and (max-width: 535px){
+    .article-portofolio{
+        display: grid;
+        height: 115vh;
+        padding: 0;
+    }
+
+    .portofolio-item{
+        width: 200px;
+        height: 200px;
+    }
+
+
+}
+
+@media screen and (max-width: 500px){
+    nav a{
+        font-size: 10px;
+        padding: 7px;
+    }
+
+    .text-profile{
+        font-size: 15px;
+
+    }
+}
+
+
+
+@media screen and (max-width: 460px){
+    .message-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imessage-container{
+        width: 85%;
+        flex: 0;
+        align-content: center;
+    }
+
+    .omessage-container{
+        width: 100%;
+        flex: 0;
+    }
+}

@@ -15,9 +15,9 @@
 
             <nav>
                 <a href="#home">home</a>
-                <a href="#hr-konten">our profile</a>
-                <a>portfolio</a>
-                <a>message us</a>
+                <a href="#profile">our profile</a>
+                <a href="#portofolio">portofolio</a>
+                <a href="#message">message us</a>
             </nav>
         </div>
     </header>
@@ -27,45 +27,84 @@
         <!-- ini home content -->
         <section class="section-konten">
             <header>
-                <h1 class="text-hi">hi user, welcome to website</h1>
+                <h1 class="text-hi">hi user, welcome to my website</h1>
             </header>
 
             <article class="article-banner">
-                <p class="p-lat">ini latian website portfolio</p>
+                <p class="p-lat">ini website portfolio</p>
 
                 <div class="banner-container"></div>
             </article>
         </section>
         <br>
-        <hr id="hr-konten">
+        <hr id="profile">
 
         <!-- ini our profile content -->
         <section class="profile">
-            <header>
-                <h1 class="text-profile">our profile</h1>
+            <header class="header-profile">
+                <div class="box-header-profile">
+                    <h1 class="text-profile">want to see my profile?</h1>
+                </div>
             </header>
 
             <article class="article-profile">
                 <div class="profile-container">
-                    <div class="profile-item"></div>
-                    <p class="p-profile">tes</p>
-                </div>
+                    <div class="text-cont-profile">
+                        <h3 class="h3-dilla">fadilla izzar</h3>
+                        <p class="p-from">- daerah istimewa yogyakarta -</p>
+                        <br>
+                        <p class="p-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ad unde, animi maxime repellendus ut cupiditate saepe molestias alias accusantium. Error, cupiditate possimus? Est dignissimos et quasi consequuntur fugiat voluptas.</p>
+                        <button class="button-prof-port"><a href="#portofolio">portofolio</a></button>
+                    </div>
 
-                <div class="profile-container">
-                    <div class="profile-item"></div>
-                    <p class="p-profile">tes</p>
-                </div>
-
-                <div class="profile-container">
-                    <div class="profile-item"></div>
-                    <p class="p-profile">tes</p>
+                    <div class="gambar-profile">
+                        <div class="box-gambar">
+                            <div class="text-atas">
+                                <p class="p-dilla">pelajar</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </article>
         </section>
-        <hr>
+        <hr id="portofolio">
 
-        <!-- ini portfolio content -->
-         <section class="message">
+        <!-- ini portofolio content -->
+        <section class="portofolio">
+            <header>
+                <h1 class="text-portofolio">portofolio</h1>
+            </header>
+
+            <article class="article-portofolio">
+                <div class="portofolio-container">
+                    <div class="portofolio-item">
+                        <p class="dearmecca"><a href="https://dillaizza.github.io/dearmeccaa/">dearmecca</a></p>
+                    </div>
+                </div>
+
+                <div class="portofolio-container">
+                    <div class="portofolio-item">
+                        <p class="dearmecca"><a href="">smkn 2yk</a></p>
+                    </div>
+                </div>
+
+                <div class="portofolio-container">
+                    <div class="portofolio-item">
+                        <p class="dearmecca"><a href="">cmng soon</a></p>
+                    </div>
+                </div>
+
+                <div class="portofolio-container">
+                    <div class="portofolio-item">
+                        <p class="dearmecca"><a href="">cmng soon</a></p>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <hr id="message">
+
+        <!-- ini message us content -->
+        <section class="message">
             <header>
                 <h1 class="text-message">message us</h1>
             </header>
@@ -77,7 +116,7 @@
                         <div class="imessage-container">
                             <div class="formm" id="nama">
                                 <label class="label" id="label-nama">nama <span id="span-nama">:</span></label>
-                                <input type="text" id="input-nama">
+                                <input type="text" id="input-nama" placeholder="nama">
                             </div>
 
                             <div class="formm" id="date">
@@ -102,12 +141,12 @@
                             <div class="formm" id="pesan">
                                 <div class="box-pesan">
                                     <label class="label" id="label-pesan">pesan<span id="span-pesan">:</span></label>
-                                    <input type="tel" id="input-pesan">
-                                    <!-- <textarea id="tarea-pesan">pesan</textarea> -->
+                                    <!-- <input type="tel" id="input-pesan" placeholder="pesan"> -->
+                                    <textarea id="tarea-pesan" placeholder="ketik"></textarea>
                                 </div>
                             </div>
 
-                            <button>khsa</button>
+                            <button>submit</button>
                         </div>
                     </div>
 
@@ -118,10 +157,34 @@
                     </div>
                 </div>
             </article>
-         </section>
-
-        <!-- ini message us content -->
+        </section>
+        <hr>
     </main>
+
+    <footer>
+        <h1 class="text-footer"><a href="#home">@dilloooo</a></h1>
+    
+        <div class="sosmed">
+            <div class="ig">
+                <a href="https://www.instagram.com/fadillaiizzar?igsh=MW42bTZwZDFwM2dmcQ==">
+                    <div class="box-ig"></div>
+                </a>
+            </div>
+            
+            <div class="mail">
+                <a href="https://www.youtube.com/channel/UCLoQ8MFF6BUB1VUqK4BFdFg">
+                    <div class="box-mail"></div>
+                </a>
+            </div>
+
+            <div class="pin">
+                <a href="https://pin.it/7qYG84zg5">
+                    <div class="box-pin"></div>
+                </a>
+            </div>
+
+        </div>
+    </footer>
     
 
 </body>
