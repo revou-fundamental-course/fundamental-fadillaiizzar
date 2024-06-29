@@ -307,9 +307,6 @@ nav > a:hover{
 }
 
 /* nama */
-.formm#nama{
-
-}
 .label#label-nama{
     text-align: start;
 }
@@ -324,9 +321,6 @@ input#input-nama{
 }
 
 /* date */
-.formm#date{
-
-}
 .label#label-date{
     text-align: start;
 }
@@ -371,26 +365,13 @@ label#label-wanita{
     padding-left: 5px;
 }
 
-input#pria{
-
-}
 
 .box-wanita{
     padding-left: 15px;
 }
 
-input#wanita{
-
-}
 
 /* pesan */
-.formm#pesan{
-
-}
-
-.box-pesan{
-    
-}
 
 .label#label-pesan{
     text-align: start;
@@ -497,10 +478,6 @@ footer{
     border-radius: 50%;
 }
 
-.pin{
-
-}
-
 .sosmed .pin .box-pin{
     background-image: url(../assets/pin.jpeg);
     background-size: cover;
@@ -602,7 +579,6 @@ footer{
 
     .text-profile{
         font-size: 15px;
-
     }
 }
 
