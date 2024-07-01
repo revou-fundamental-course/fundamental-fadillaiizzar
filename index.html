@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
-    <title>portfolio dilla</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>portofolio dilla</title>
 </head>
 
 <body id="home">
@@ -15,7 +15,7 @@
 
             <nav>
                 <a href="#home">home</a>
-                <a href="#profile">our profile</a>
+                <a href="#profile">profile</a>
                 <a href="#portofolio">portofolio</a>
                 <a href="#message">message us</a>
             </nav>
@@ -27,16 +27,19 @@
         <!-- ini home content -->
         <section class="section-konten">
             <header>
-                <h1 class="text-hi">hi user, welcome to my website</h1>
+                <h1 class="text-hi">hi <span id="name"></span>, welcome to my website</h1>
             </header>
 
             <article class="article-banner">
-                <p class="p-lat">ini website portfolio</p>
+                <p class="p-lat">ini website portofolio</p>
+                <input required type="text" placeholder="change name" id="name-input">
+                <button id="kirim">submit</button>
+                <!-- <p id="error-name"></p> -->
 
                 <div class="banner-container"></div>
             </article>
         </section>
-        <br>
+        <br><br>
         <hr id="profile">
 
         <!-- ini our profile content -->
@@ -67,6 +70,7 @@
                 </div>
             </article>
         </section>
+        <br>
         <hr id="portofolio">
 
         <!-- ini portofolio content -->
@@ -90,13 +94,13 @@
 
                 <div class="portofolio-container">
                     <div class="portofolio-item">
-                        <p class="dearmecca"><a href="">cmng soon</a></p>
+                        <p class="dearmecca"><a href="">cmg soon</a></p>
                     </div>
                 </div>
 
                 <div class="portofolio-container">
                     <div class="portofolio-item">
-                        <p class="dearmecca"><a href="">cmng soon</a></p>
+                        <p class="dearmecca"><a href="">cmg soon</a></p>
                     </div>
                 </div>
             </article>
@@ -114,45 +118,55 @@
                     <div class="box-imessage">
 
                         <div class="imessage-container">
-                            <div class="formm" id="nama">
-                                <label class="label" id="label-nama">nama <span id="span-nama">:</span></label>
-                                <input type="text" id="input-nama" placeholder="nama">
-                            </div>
-
-                            <div class="formm" id="date">
-                                <label class="label" id="label-date">tanggal lahir <span id="span-date">:</span></label>
-                                <input type="date" id="input-date">
-                            </div>
-
-                            <div class="formm" id="gender">
-                                <label class="label" id="label-gender">gender<span id="span-gender">:</span></label>
-
-                                <div class="box-opsi">
-                                    <div class="box-pria">
-                                        <input type="radio" name="gender" id="pria"><label id="label-pria">pria</label>
-                                    </div> 
+                            <form name="message-form" onsubmit="return validateForm()" id="formboz">
+                                <div class="formm" id="nama">
+                                    <label class="label" id="label-nama">nama <span id="span-nama">:</span></label>
+                                    <input type="text" id="input-nama" placeholder="nama" name="full-name">
+                                </div>
     
-                                    <div class="box-wanita">
-                                        <input type="radio" name="gender" id="wanita"><label id="label-wanita">wanita</label>
-                                    </div>    
+                                <div class="formm" id="date">
+                                    <label class="label" id="label-date">tanggal lahir <span id="span-date">:</span></label>
+                                    <input type="date" id="input-date" name="birth-date">
                                 </div>
-                            </div>
-
-                            <div class="formm" id="pesan">
-                                <div class="box-pesan">
-                                    <label class="label" id="label-pesan">pesan<span id="span-pesan">:</span></label>
-                                    <!-- <input type="tel" id="input-pesan" placeholder="pesan"> -->
-                                    <textarea id="tarea-pesan" placeholder="ketik"></textarea>
+    
+                                <div class="formm" id="gender">
+                                    <label class="label" id="label-gender">gender<span id="span-gender">:</span></label>
+    
+                                    <div class="box-opsi">
+                                        <div class="box-pria">
+                                            <input type="radio" name="gender" id="pria" value="pria"><label id="label-pria">pria</label>
+                                        </div> 
+        
+                                        <div class="box-wanita">
+                                            <input type="radio" name="gender" id="wanita" value="wanita"><label id="label-wanita">wanita</label>
+                                        </div>    
+                                    </div>
                                 </div>
-                            </div>
+    
+                                <div class="formm" id="pesan">
+                                    <div class="box-pesan">
+                                        <label class="label" id="label-pesan">pesan<span id="span-pesan">:</span></label>
+                                        <!-- <input type="tel" id="input-pesan" placeholder="pesan"> -->
+                                        <textarea id="tarea-pesan" placeholder="pesan" name="messages"></textarea>
+                                    </div>
+                                </div>
 
-                            <button>submit</button>
+                                <button value="submit">submit</button>
+                            </form>
                         </div>
                     </div>
 
                     <div class="box-omessage">
                         <div class="omessage-container">
-                            <p>p</p>
+                            <div>
+                                <p>nama : <span id="sender-full-name"></span></p>
+                                <br>
+                                <p>tanggal lahir : <span id="sender-birth-date"></span></p>
+                                <br>
+                                <p>jenis kelamin : <span id="sender-gender"></span></p>
+                                <br>
+                                <p>pesan : <span id="sender-messages"></span></p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -182,10 +196,9 @@
                     <div class="box-pin"></div>
                 </a>
             </div>
-
         </div>
     </footer>
     
-
+    <script src="./js/script.js"></script>
 </body>
 </html>
