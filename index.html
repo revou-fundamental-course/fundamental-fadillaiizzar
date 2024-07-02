@@ -36,7 +36,27 @@
                 <button id="kirim">submit</button>
                 <!-- <p id="error-name"></p> -->
 
-                <div class="banner-container"></div>
+                <!-- <div class="banner-container" id="b1"></div>
+                <div class="banner-container" id="b2"></div>
+                <div class="banner-container" id="b3"></div> -->
+
+                <div>
+                    <img 
+                    class="banner-container" 
+                    src="./assets/banner.jpeg"/>
+
+                    <img class="banner-container" 
+                    src="./assets/back.jpeg"/>
+
+                    <img class="banner-container" 
+                    src="./assets/profile.jpeg"/>
+                    
+                    <div class="div-button">
+                        <button onclick="plusDivs(-1)" class="button-banner">preview</button>
+                        <button onclick="plusDivs(1)" class="button-banner">next</button>
+                    </div>
+                </div>
+                
             </article>
         </section>
         <br><br>
@@ -54,7 +74,7 @@
                 <div class="profile-container">
                     <div class="text-cont-profile">
                         <h3 class="h3-dilla">fadilla izzar</h3>
-                        <p class="p-from">- daerah istimewa yogyakarta -</p>
+                        <p class="p-from">- yogyakarta -</p>
                         <br>
                         <p class="p-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ad unde, animi maxime repellendus ut cupiditate saepe molestias alias accusantium. Error, cupiditate possimus? Est dignissimos et quasi consequuntur fugiat voluptas.</p>
                         <button class="button-prof-port"><a href="#portofolio">portofolio</a></button>
@@ -75,7 +95,7 @@
 
         <!-- ini portofolio content -->
         <section class="portofolio">
-            <header>
+            <header class="hider">
                 <h1 class="text-portofolio">portofolio</h1>
             </header>
 
@@ -109,7 +129,7 @@
 
         <!-- ini message us content -->
         <section class="message">
-            <header>
+            <header class="header-message">
                 <h1 class="text-message">message us</h1>
             </header>
 
@@ -158,7 +178,7 @@
 
                     <div class="box-omessage">
                         <div class="omessage-container">
-                            <div>
+                            <div class="out">
                                 <p>nama : <span id="sender-full-name"></span></p>
                                 <br>
                                 <p>tanggal lahir : <span id="sender-birth-date"></span></p>

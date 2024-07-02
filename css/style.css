@@ -51,6 +51,7 @@ nav > a:hover{
 
 .section-konten{
     padding-bottom: 4px;
+    margin-bottom: -0.01rem;
 }
 
 .p-lat{
@@ -70,14 +71,25 @@ button#kirim{
 }
 
 .banner-container{
-    height: 420px;
+    height: 400px;
     width: 100%;
     border: 1px solid;
-    background-image: url(../assets/banner.jpeg);
+    /* background-image: url(../assets/banner.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; */
     border-radius: 10px;
+}
+
+.div-button{
+    display: flex;
+    display: flex;
+    margin-top: 12px;
+    justify-content: space-between;
+}
+
+.div-button > .button-banner{
+    width: 20%;
 }
 
 .profile{
@@ -201,7 +213,7 @@ button#kirim{
 .portofolio{
     background-color: rgb(150, 167, 179);
     margin-top: 40px;
-    margin-bottom: 23px;
+    margin-bottom: 2.5rem;
     border-radius: 10px 10px 10px 10px ;
     border: 1px solid rgb(0, 0, 0);
 }
@@ -509,6 +521,10 @@ footer{
     .message-container{
         height: 100%;
     }
+
+    .portofolio{
+        margin-bottom: 2.5rem;
+    }
 }
 
 @media screen and (max-width: 1052px){
@@ -517,7 +533,26 @@ footer{
     }
 }
 
+@media screen and (max-width: 1028px){
+    .message{
+        height: 65vh;
+        background-color: rgb(150, 167, 179);
+    }
+
+    .header-message{
+        height: 13%;
+    }
+
+    .article-message{
+        height: 87%;
+    }
+}
+
 @media screen and (max-width: 950px){
+    .portofolio{
+        margin-bottom: 2.5rem;
+    }
+
     .portofolio-item{
         width: 100px;
         height: 100px;
@@ -525,21 +560,84 @@ footer{
 }
 
 @media screen and (max-width: 940px){
-    .label , .label#label-pria , .label#label-wanita{
+    .profile{
+        margin-bottom: 3.7rem;
+    }
+
+    .label{
         font-size: 12px;
     }
+
+    #label-pria{
+        font-size: 13px;
+    }
+
+    #label-wanita{
+        font-size: 13px;
+    }
+
+    .out{
+        font-size: 14px;
+    }
+
 }
 
 @media screen and (max-width: 820px){
     .text-atas{
         left: 18px;
     }    
+
+    .message{
+        height: 120vh;
+    }
+
+    .header-message{
+        height: 10%;
+    }
+
+    .message-container{
+        flex-direction: column;
+        background-color: rgb(150, 167, 179);
+    }
+
+    .imessage-container{
+        padding: 10px;
+    }
+
+    .box-omessage{
+        width: 100%;
+    }
+
+    .label{
+        font-size: 14px;
+    }
+
+    #label-pria{
+        font-size: 14px;
+    }
+
+    #label-wanita{
+        font-size: 14px;
+    }
+
+    .sosmed .ig .box-ig{
+        width: 33px;
+        height: 33px;
+    }
+
+    .sosmed .mail .box-mail{
+        width: 33px;
+        height: 33px;
+    }
+
+    .sosmed .pin .box-pin{
+        width: 33px;
+        height: 33px;
+    }
 }
 
 @media screen and (max-width: 812px){
-    .label , .label#label-pria , .label#label-wanita{
-        font-size: 11px;
-    }
+
 }
 
 @media screen and (max-width: 780px){
@@ -553,7 +651,7 @@ footer{
         font-size: 12px;
     }
 
-    .message{
+    /* .message{
         margin-bottom: 6rem;
         height: 95vh;
         background-color: rgb(150, 167, 179);
@@ -582,7 +680,7 @@ footer{
 
     .label , .label#label-pria , .label#label-wanita{
         font-size: 15px;
-    }
+    } */
 }
 
 @media screen and (max-width: 750px){
@@ -592,7 +690,7 @@ footer{
 @media screen and (max-width: 690px){
 
     .profile{
-        margin-bottom: 18rem;
+        margin-bottom: 17rem;
     }
 
     .box-header-profile{
@@ -605,6 +703,7 @@ footer{
 
     .article-profile{
         height: 95vh;
+        padding: 20px;
     }
 
     .profile-container{
@@ -624,26 +723,33 @@ footer{
 }
 
 @media screen and (max-width: 680px){
-    .profile{
-        margin-bottom: 17.5rem;
-    }
-
-    button{
+    /* button{
         width: 25%;
-    }
+    } */
 }
 
 @media screen and (max-width: 535px){
     .text-atas{
         left: 9px;
     } 
-}
 
-@media screen and (max-width: 535px){
+    .portofolio{
+        height: 180vh;
+        margin-bottom: 2.5rem;
+    }
+
+    .hider{
+        height: 5%;
+    }
+
     .article-portofolio{
         display: grid;
-        height: 115vh;
         padding: 0;
+        height: 94.9%;
+    }
+
+    .portofolio-container{
+        margin: 1rem;
     }
 
     .portofolio-item{
@@ -652,13 +758,41 @@ footer{
     }
 }
 
-@media screen and (max-width: 520px){
-    .portofolio{
-        height: 150vh;
+@media screen and (max-width: 530px){
+
+    .label{
+        font-size: 13px;
     }
 
-    .article-portofolio{
-        height: 143.7vh;
+    #label-pria{
+        font-size: 13px;
+    }
+
+    #label-wanita{
+        font-size: 13px;
+    }
+
+    input#input-nama{
+        width: 37%;
+    }
+
+    input#input-date{
+        width: 37%;
+    }
+
+    .box-opsi{
+        width: 39%;
+    }
+
+   textarea#tarea-pesan{
+        width: 37%;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .portofolio-item{
+        width: 170px;
+        height: 170px;
     }
 }
 
@@ -683,7 +817,7 @@ footer{
 
 @media screen and (max-width: 490px){
     .profile{
-        margin-bottom: 15rem;
+        margin-bottom: 14rem;
     }
 
     .header-profile{
@@ -691,44 +825,73 @@ footer{
     }
 }
 
+@media screen and (max-width: 490px){
+    .label{
+        font-size: 12px;
+    }
+    
+    #label-pria{
+        font-size: 12px;
+    }
+    
+    #label-wanita{
+        font-size: 12px;
+    }
+
+    .out{
+        font-size: 13px;
+    }
+
+    .text-footer{
+        font-size: 22px;
+    }
+}
+
+
+
 @media screen and (max-width: 475px){
+    .div-button > .button-banner{
+        width: 30%;
+    }
+
     .text-atas{
         left: 26px;
         width: 80%;
     }
 }
 
-@media screen and (max-width: 460px){
-    .message-container{
-        display: flex;
-        flex-direction: column;
+
+
+@media screen and (max-width: 478px){
+    .formm{
+        width: 90%;
+        text-align-last: left;
+        font-size: 10px;
     }
 
-    .imessage-container{
-        width: 85%;
-        flex: 0;
-        align-content: center;
-    }
-
-    .omessage-container{
-        width: 100%;
-        flex: 0;
-    }
-
-    .box-omessage{
-        width: 100%;
-    }
-
-    .omessage-container{
-        width: 85%;
+    .message-form{
+        text-align: -webkit-center;
     }
 
     .label{
-        font-size: 11px;
+        font-size: 13px;
+        width: 40%;
     }
 
-    button#kirim{
-        width: 20%;
+    input#input-nama{
+        width: 50%;
+    }
+
+    input#input-date{
+        width: 51%;
+    }
+
+    .box-opsi{
+        width: 59%;
+    }
+
+    textarea#tarea-pesan{
+        width: 50%;
     }
 }
 
@@ -741,6 +904,13 @@ footer{
         font-size: 13px;
     }
 }
+
+@media screen and (max-width: 390px){
+    .profile{
+        margin-bottom: 20rem;
+    }
+}
+
 
 @media screen and (max-width: 385px){
 
@@ -809,6 +979,20 @@ footer{
     }
 }
 
+@media screen and (max-width: 360px){
+    .label{
+        font-size: 11px;
+    }
+
+    .label#label-pria{
+        font-size: 11px;
+    }
+
+    .label#label-wanita{
+        font-size: 11px;
+    }
+}
+
 @media screen and (max-width: 330px){
     nav a{
         font-size: 8px;
@@ -823,5 +1007,11 @@ footer{
 @media screen and (max-width: 335px){
     .text-profile{
         font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .text-profile{
+        font-size: 12px;
     }
 }
