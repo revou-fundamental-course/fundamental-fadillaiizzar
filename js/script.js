@@ -1,4 +1,4 @@
-// hello user
+// prompt hello user start
 function replaceName(){
     let name = prompt("siapakah nama anda?", "");
     document.getElementById("name").innerHTML = name
@@ -9,13 +9,12 @@ replaceName()
 let nameInput = document.getElementById('name-input')
 
 document.getElementById('kirim').addEventListener("click", function(){
-
     const nama = nameInput.value
-
     document.getElementById('name').innerHTML = nama
 })
+// prompt hello user end
 
-// form
+// validate form start
 function validateForm(){
     const name = document.forms["message-form"]["full-name"].value;
     const birthDate = document.forms["message-form"]["birth-date"].value;
@@ -38,8 +37,9 @@ function setSenderUI(name, birthDate, gender, messages) {
     document.getElementById("sender-gender").innerHTML = gender;
     document.getElementById("sender-messages").innerHTML = messages;
 }
+// validate form end
 
-// slide banner
+// slide banner start
 var slideIndex = 1;
 showDivs(slideIndex);
 
@@ -60,6 +60,10 @@ function showDivs(n) {
     imgList[slideIndex - 1].style.display = "block";
 }
 
+// slide banner autoslide /3s start
 setInterval(() => {
     plusDivs(1);
-}, 3000);
+}, 3000); 
+// slide banner autoslide /3s end
+
+// slide banner end

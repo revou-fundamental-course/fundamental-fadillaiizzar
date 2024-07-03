@@ -1,5 +1,4 @@
-/* ini css */
-
+/* html dan body start */
 *{
     margin: 0;
     padding: 0;
@@ -8,7 +7,9 @@
 body{
     background-color: aliceblue; 
 }
+                /* html dan body end */
 
+                /* header start */
 .home2{
     padding: 10px 8px 10px 8px;
 }
@@ -23,14 +24,17 @@ body{
     border: 1px solid black;
 }
 
+/* logo start */
 .logo-icon{
     height: 45px;
     width: 45px;
     background-image: url(../assets/logo.jpeg);
     background-size: cover;
     border-radius: 50%;
-}
+} 
+/* logo end */
 
+/* navigation start */
 nav > a{
     padding: 3px 20px 5px 20px;
     border: 1px solid;
@@ -42,23 +46,29 @@ nav > a{
 nav > a:hover{
     color: rgb(0, 0, 0);
     cursor: pointer;
-}
+} 
+/* navigation end */
+                /* header end */
 
+                /* main start */
 .konten{
     padding: 20px 35px 20px 35px;
     background-color: aliceblue;
 }
 
+/* section konten start */
 .section-konten{
     padding-bottom: 4px;
     margin-bottom: -0.01rem;
 }
 
+/* article konten banner start */
 .p-lat{
     padding-top: 10px;
     padding-bottom: 7px;
 }
 
+/* input change name start */
 input#name-input{
     padding: 3px;
     margin-bottom: 11px;
@@ -68,19 +78,18 @@ input#name-input{
 button#kirim{
     padding: 3px;
     width: 15%;
-}
+} 
+/* input change name end */
 
+/* banner autoslide start */
 .banner-container{
     height: 400px;
     width: 100%;
     border: 1px solid;
-    /* background-image: url(../assets/banner.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; */
     border-radius: 10px;
 }
 
+/* button banner start */
 .div-button{
     display: flex;
     display: flex;
@@ -90,14 +99,17 @@ button#kirim{
 
 .div-button > .button-banner{
     width: 20%;
-}
+} 
+/* button banner, banner autoslide, section konten end */
 
+/* section profile start */
 .profile{
     margin-top: 2rem;
     margin-bottom: 4rem;
     height: 85vh;
 }
 
+/* header profile start */
 .header-profile{
     background-color: rgb(150, 167, 179);
     padding: 15px 35px;
@@ -118,8 +130,10 @@ button#kirim{
     background-position: center;
     text-align: center;
     border-radius: 10px;
-}
+} 
+/* header profile end */
 
+/* article profile start */
 .article-profile{
     background-color: rgb(150, 167, 179);
     height: 80%;
@@ -136,6 +150,7 @@ button#kirim{
     height: 50vh;
 }
 
+/* box text profile start */
 .text-cont-profile{
     flex: 1;
     background-color: rgb(206, 192, 192);
@@ -172,8 +187,10 @@ button#kirim{
 .button-prof-port a{
     text-decoration: none;
     color: rgb(206, 192, 192);
-}
+} 
+/* box text profile end */
 
+/* box img profile start */
 .gambar-profile{
     flex: 1;
     background-color: rgb(150, 167, 179);
@@ -209,7 +226,9 @@ button#kirim{
     border-radius: 15px;
     border: 1px solid rgb(0, 0, 0);
 }
+/* box img profile end, article profile end, section profile end */
 
+/* section portofolio start */
 .portofolio{
     background-color: rgb(150, 167, 179);
     margin-top: 40px;
@@ -218,17 +237,15 @@ button#kirim{
     border: 1px solid rgb(0, 0, 0);
 }
 
+/* header portofolio start */
 .text-portofolio{
     text-align: center;
     padding-top: 8px;
     padding-bottom: 10px;
-}
+} 
+/* header portofolio end */
 
-.p-portofolio{
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
+/* article portofolio start */
 .article-portofolio{
     display: flex;
     background-color: rgb(206, 192, 192);
@@ -262,8 +279,10 @@ button#kirim{
 
 .dearmecca a:hover{
     color: rgb(150, 167, 179);
-}
+} 
+/* article portofolio, section portofolio end */
 
+/* section message start */
 .message{
     margin-top: 40px;
     height: 57.1vh;
@@ -272,6 +291,7 @@ button#kirim{
     border: 1px solid rgb(0, 0, 0);
 }
 
+/* header message start */
 .text-message{
     background-color: rgb(206, 192, 192);
     text-align: center;
@@ -279,8 +299,11 @@ button#kirim{
     padding-bottom: 10px;
     border-radius: 10px 10px 0 0;
     border-bottom: 1px dotted black;
-}
+} 
+/* header message end */
 
+
+/* article message start */
 .article-message{
     background-color: rgb(80, 49, 49);
     height: 50vh;
@@ -298,6 +321,7 @@ button#kirim{
     border-radius: 10px;
 }
 
+/* input form start */
 .box-imessage{
     background-color: rgb(150, 167, 179);
     flex: 1;
@@ -329,10 +353,11 @@ button#kirim{
     padding-left: 4px;
 }
 
-/* nama */
+/* input form nama start */
 .label#label-nama{
     text-align: start;
 }
+
 .label span#span-nama{
     float: right;
     padding-right: 5px;
@@ -341,9 +366,10 @@ button#kirim{
 input#input-nama{
     width: 41%;
     padding-left: 3px;
-}
+} 
+/* input form nama end */
 
-/* date */
+/* input form date start */
 .label#label-date{
     text-align: start;
 }
@@ -353,9 +379,10 @@ input#input-nama{
 }
 input#input-date{
     width: 41%;
-}
+} 
+/* input form date end */
 
-/* gender */
+/* input form gender start */
 .formm#gender{
     display: flex;
     justify-content: center;
@@ -388,14 +415,12 @@ label#label-wanita{
     padding-left: 5px;
 }
 
-
 .box-wanita{
     padding-left: 15px;
-}
+} 
+/* input form gender end */
 
-
-/* pesan */
-
+/* input form pesan start */
 .label#label-pesan{
     text-align: start;
     vertical-align: top;
@@ -411,9 +436,10 @@ textarea#tarea-pesan{
     width: 41%;
     padding-left: 3px;
     padding-top: 4px;
-}
+} 
+/* input form pesan end */
 
-/* button */
+/* button submit form start */
 button{
     padding: 5px;
     border-radius: 5px;
@@ -424,8 +450,10 @@ button{
 button:hover{
     background-color: black;
     color: white;
-}
+} 
+/* button submit form, input form end */
 
+/* output form start */
 .box-omessage{
     background-color: rgb(150, 167, 179);
     flex: 1;
@@ -440,8 +468,11 @@ button:hover{
     height: 77%;
     align-content: center;
     border-radius: 8px;
-}
+} 
+/* output form, article message, section message end */
+                /* main end */
 
+                /* footer start */
 footer{
     background-color: rgb(150, 167, 179);
     height: 10vh;
@@ -452,6 +483,7 @@ footer{
     border: 1px solid black;
 }
 
+/* header footer start */
 .text-footer{
     height: 10vh;
     font-size: 27px;
@@ -466,8 +498,10 @@ footer{
 
 .text-footer a:hover{
     color: rgb(68, 69, 70);
-}
+} 
+/* header footer end */
 
+/* article footer sosmed start */
 .sosmed{
     height: 10vh;
     display: flex;
@@ -511,8 +545,11 @@ footer{
     height: 40px;
     border-radius: 50%;
     border: 1px solid black;
-}
+} 
+/* article footer sosmed end */
+                /* footer end */
 
+                /* media screen start */
 @media screen and (max-width: 1212px){
     .article-message{
         height: 89%;
@@ -636,10 +673,6 @@ footer{
     }
 }
 
-@media screen and (max-width: 812px){
-
-}
-
 @media screen and (max-width: 780px){
     .p-about{
         font-size: 13px;
@@ -650,45 +683,9 @@ footer{
     nav a{
         font-size: 12px;
     }
-
-    /* .message{
-        margin-bottom: 6rem;
-        height: 95vh;
-        background-color: rgb(150, 167, 179);
-    }
-
-    .article-message{
-        background-color: rgb(150, 167, 179);
-    }
-
-    .message-container{
-        display: grid;
-        height: 90vh;
-        padding: 0;
-        background-color: rgb(150, 167, 179);
-    }
-
-    form{
-        padding-bottom: 9px;
-        padding-top: 4px;
-    }
-
-    .box-omessage{
-        border-radius: 20px;
-        background-color: rgb(150, 167, 179);
-    }
-
-    .label , .label#label-pria , .label#label-wanita{
-        font-size: 15px;
-    } */
-}
-
-@media screen and (max-width: 750px){
-
 }
 
 @media screen and (max-width: 690px){
-
     .profile{
         margin-bottom: 17rem;
     }
@@ -719,13 +716,6 @@ footer{
     .text-atas{
         left: -8px;
     }    
-
-}
-
-@media screen and (max-width: 680px){
-    /* button{
-        width: 25%;
-    } */
 }
 
 @media screen and (max-width: 535px){
@@ -759,7 +749,6 @@ footer{
 }
 
 @media screen and (max-width: 530px){
-
     .label{
         font-size: 13px;
     }
@@ -823,9 +812,7 @@ footer{
     .header-profile{
         height: 10vh;
     }
-}
 
-@media screen and (max-width: 490px){
     .label{
         font-size: 12px;
     }
@@ -846,21 +833,6 @@ footer{
         font-size: 22px;
     }
 }
-
-
-
-@media screen and (max-width: 475px){
-    .div-button > .button-banner{
-        width: 30%;
-    }
-
-    .text-atas{
-        left: 26px;
-        width: 80%;
-    }
-}
-
-
 
 @media screen and (max-width: 478px){
     .formm{
@@ -895,6 +867,17 @@ footer{
     }
 }
 
+@media screen and (max-width: 475px){
+    .div-button > .button-banner{
+        width: 30%;
+    }
+
+    .text-atas{
+        left: 26px;
+        width: 80%;
+    }
+}
+
 @media screen and (max-width: 395px){
     .text-atas{
         left: 33px;
@@ -907,13 +890,11 @@ footer{
 
 @media screen and (max-width: 390px){
     .profile{
-        margin-bottom: 20rem;
+        margin-bottom: 14.5rem;
     }
 }
 
-
 @media screen and (max-width: 385px){
-
     .header-profile{
         height: 10vh;
     }
@@ -954,13 +935,11 @@ footer{
     }
 }
 
-
 @media screen and (max-width: 380px){
     .text-atas{
         left: 28px;
     }
 }
-
 
 @media screen and (max-width: 375px){
     nav a{
@@ -969,7 +948,6 @@ footer{
 }
 
 @media screen and (max-width: 370px){
-
     input#name-input{
         width: 52%;
     }
@@ -993,6 +971,12 @@ footer{
     }
 }
 
+@media screen and (max-width: 335px){
+    .text-profile{
+        font-size: 13px;
+    }
+}
+
 @media screen and (max-width: 330px){
     nav a{
         font-size: 8px;
@@ -1004,14 +988,9 @@ footer{
     }
 }
 
-@media screen and (max-width: 335px){
-    .text-profile{
-        font-size: 13px;
-    }
-}
-
 @media screen and (max-width: 300px){
     .text-profile{
         font-size: 12px;
     }
 }
+                /* media screen end */

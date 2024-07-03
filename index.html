@@ -6,41 +6,50 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>portofolio dilla</title>
 </head>
-
 <body id="home">
-    <!-- ini header nav -->
-    <header class="home2">
-        <div class="div nav-container">
-            <div class="logo-icon"></div>
 
+    <!-- ini header nav start -->
+    <header class="home2">
+        <div class="nav-container">
+            <!-- logo start -->
+            <div class="logo-icon"></div>
+            <!-- logo end -->
+
+            <!-- navigation start -->
             <nav>
                 <a href="#home">home</a>
                 <a href="#profile">profile</a>
                 <a href="#portofolio">portofolio</a>
                 <a href="#message">message us</a>
             </nav>
+            <!-- navigation end -->
         </div>
     </header>
+    <!-- ini header nav end -->
+    
     <hr>
-    <!-- ini main konten -->
-    <main class="konten">
-        <!-- ini home content -->
-        <section class="section-konten">
-            <header>
-                <h1 class="text-hi">hi <span id="name"></span>, welcome to my website</h1>
-            </header>
 
+    <!-- ini main konten start -->
+    <main class="konten">
+        <!-- section home content start -->
+        <section class="section-konten">
+            <!-- header home start -->
+            <header>
+                <h1 class="text-hi">hi <span id="name">user</span>, welcome to my website</h1>
+            </header>
+            <!-- header home end -->
+
+            <!-- article home banner start -->
             <article class="article-banner">
                 <p class="p-lat">ini website portofolio</p>
+                <!-- input change name user start -->
                 <input required type="text" placeholder="change name" id="name-input">
                 <button id="kirim">submit</button>
-                <!-- <p id="error-name"></p> -->
+                <!-- input change name user end -->
 
-                <!-- <div class="banner-container" id="b1"></div>
-                <div class="banner-container" id="b2"></div>
-                <div class="banner-container" id="b3"></div> -->
-
+                <!-- banner autoslide start -->
                 <div>
+                    <!-- banner img start -->
                     <img 
                     class="banner-container" 
                     src="./assets/banner.jpeg"/>
@@ -50,28 +59,38 @@
 
                     <img class="banner-container" 
                     src="./assets/profile.jpeg"/>
+                    <!-- banner img end -->
                     
+                    <!-- banner button start -->
                     <div class="div-button">
                         <button onclick="plusDivs(-1)" class="button-banner">preview</button>
                         <button onclick="plusDivs(1)" class="button-banner">next</button>
                     </div>
+                    <!-- banner button start -->
                 </div>
-                
+                <!-- banner autoslide end -->
             </article>
+            <!-- article home banner end -->
         </section>
+        <!-- section home content end -->
+
         <br><br>
         <hr id="profile">
 
-        <!-- ini our profile content -->
+        <!-- section profile content start -->
         <section class="profile">
+            <!-- header profile start -->
             <header class="header-profile">
                 <div class="box-header-profile">
                     <h1 class="text-profile">want to see my profile?</h1>
                 </div>
             </header>
+            <!-- header profile end -->
 
+            <!-- article profile start -->
             <article class="article-profile">
                 <div class="profile-container">
+                    <!-- box text profile start -->
                     <div class="text-cont-profile">
                         <h3 class="h3-dilla">fadilla izzar</h3>
                         <p class="p-from">- yogyakarta -</p>
@@ -79,76 +98,109 @@
                         <p class="p-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ad unde, animi maxime repellendus ut cupiditate saepe molestias alias accusantium. Error, cupiditate possimus? Est dignissimos et quasi consequuntur fugiat voluptas.</p>
                         <button class="button-prof-port"><a href="#portofolio">portofolio</a></button>
                     </div>
+                    <!-- box text profile end -->
 
+                    <!-- box img profile start -->
                     <div class="gambar-profile">
+                        <!-- img -->
                         <div class="box-gambar">
+                            <!-- text -->
                             <div class="text-atas">
                                 <p class="p-dilla">pelajar</p>
                             </div>
                         </div>
                     </div>
+                    <!-- box img profile end -->
                 </div>
             </article>
+            <!-- article profile end -->
         </section>
+        <!-- section profile content end -->
+
         <br>
         <hr id="portofolio">
 
-        <!-- ini portofolio content -->
+        <!-- section portofolio content start -->
         <section class="portofolio">
+            <!-- header portofolio start -->
             <header class="hider">
                 <h1 class="text-portofolio">portofolio</h1>
             </header>
+            <!-- header portofolio end -->
 
+            <!-- article portofolio start -->
             <article class="article-portofolio">
+                <!-- img cover portifolio start -->
                 <div class="portofolio-container">
+                    <!-- portofolio pertama start -->
                     <div class="portofolio-item">
                         <p class="dearmecca"><a href="https://dillaizza.github.io/dearmeccaa/">dearmecca</a></p>
                     </div>
+                    <!-- portofolio pertama end -->
                 </div>
 
                 <div class="portofolio-container">
+                    <!-- portofolio kedua start -->
                     <div class="portofolio-item">
                         <p class="dearmecca"><a href="https://fadillaiizzar.github.io/skaduta/">smkn 2 yk</a></p>
                     </div>
+                    <!-- portofolio kedua end -->
                 </div>
 
                 <div class="portofolio-container">
+                    <!-- portofolio ketiga start -->
                     <div class="portofolio-item">
                         <p class="dearmecca"><a href="">cmg soon</a></p>
                     </div>
+                    <!-- portofolio ketiga end -->
                 </div>
 
                 <div class="portofolio-container">
+                    <!-- portofolio keempat start -->
                     <div class="portofolio-item">
                         <p class="dearmecca"><a href="">cmg soon</a></p>
                     </div>
+                    <!-- portofolio keempat end -->
                 </div>
+                <!-- img cover portifolio end -->
             </article>
+            <!-- article portofolio end -->
         </section>
+        <!-- section portofolio content end -->
+
         <hr id="message">
 
-        <!-- ini message us content -->
+        <!-- section message us content start -->
         <section class="message">
+            <!-- header message us start -->
             <header class="header-message">
                 <h1 class="text-message">message us</h1>
             </header>
+            <!-- header message us start -->
 
+            <!-- article message us start -->
             <article class="article-message">
                 <div class="message-container">
+                    <!-- input form start -->
                     <div class="box-imessage">
-
+                        <!-- form message start -->
                         <div class="imessage-container">
                             <form name="message-form" onsubmit="return validateForm()" id="formboz">
+                                <!-- input nama start -->
                                 <div class="formm" id="nama">
                                     <label class="label" id="label-nama">nama <span id="span-nama">:</span></label>
                                     <input type="text" id="input-nama" placeholder="nama" name="full-name">
                                 </div>
+                                <!-- input nama end -->
     
+                                <!-- input tanggal lahir start -->
                                 <div class="formm" id="date">
                                     <label class="label" id="label-date">tanggal lahir <span id="span-date">:</span></label>
                                     <input type="date" id="input-date" name="birth-date">
                                 </div>
+                                <!-- input tanggal lahir end -->
     
+                                <!-- input gender start -->
                                 <div class="formm" id="gender">
                                     <label class="label" id="label-gender">gender<span id="span-gender">:</span></label>
     
@@ -162,20 +214,27 @@
                                         </div>    
                                     </div>
                                 </div>
+                                <!-- input gender end -->
     
+                                <!-- input pesan start -->
                                 <div class="formm" id="pesan">
                                     <div class="box-pesan">
                                         <label class="label" id="label-pesan">pesan<span id="span-pesan">:</span></label>
-                                        <!-- <input type="tel" id="input-pesan" placeholder="pesan"> -->
                                         <textarea id="tarea-pesan" placeholder="pesan" name="messages"></textarea>
                                     </div>
                                 </div>
+                                <!-- input pesan end -->
 
+                                <!-- button submit form start -->
                                 <button value="submit">submit</button>
+                                <!-- button submit form end -->
                             </form>
                         </div>
+                        <!-- form message end -->
                     </div>
+                    <!-- input form end -->
 
+                    <!-- output form start -->
                     <div class="box-omessage">
                         <div class="omessage-container">
                             <div class="out">
@@ -189,36 +248,59 @@
                             </div>
                         </div>
                     </div>
+                    <!-- output form end -->
                 </div>
             </article>
+            <!-- article message us end -->
         </section>
+        <!-- section message us content end -->
+
         <hr>
+
     </main>
+    <!-- ini main konten end -->
 
+    <!-- ini footer start -->
     <footer>
-        <h1 class="text-footer"><a href="#home">@dilloooo</a></h1>
+        <!-- header footer start -->
+        <header>
+            <h1 class="text-footer"><a href="#home">@dilloooo</a></h1>
+        </header>
+        <!-- header footer end -->
+        
+        <!-- article footer start -->
+        <article>
+            <div class="sosmed">
+                <!-- footer instagram start -->
+                <div class="ig">
+                    <a href="https://www.instagram.com/fadillaiizzar?igsh=MW42bTZwZDFwM2dmcQ==">
+                        <div class="box-ig"></div>
+                    </a>
+                </div>
+                <!-- footer instagram end -->
+                
+                <!-- footer youtube start -->
+                <div class="mail">
+                    <a href="https://www.youtube.com/channel/UCLoQ8MFF6BUB1VUqK4BFdFg">
+                        <div class="box-mail"></div>
+                    </a>
+                </div>
+                <!-- footer youtube end -->
     
-        <div class="sosmed">
-            <div class="ig">
-                <a href="https://www.instagram.com/fadillaiizzar?igsh=MW42bTZwZDFwM2dmcQ==">
-                    <div class="box-ig"></div>
-                </a>
+                <!-- footer pinterest start -->
+                <div class="pin">
+                    <a href="https://pin.it/7qYG84zg5">
+                        <div class="box-pin"></div>
+                    </a>
+                </div>
+                <!-- footer pinterest end -->
             </div>
-            
-            <div class="mail">
-                <a href="https://www.youtube.com/channel/UCLoQ8MFF6BUB1VUqK4BFdFg">
-                    <div class="box-mail"></div>
-                </a>
-            </div>
-
-            <div class="pin">
-                <a href="https://pin.it/7qYG84zg5">
-                    <div class="box-pin"></div>
-                </a>
-            </div>
-        </div>
+        </article>
+        <!-- article footer end -->
     </footer>
-    
+    <!-- ini footer end -->
+
+    <!-- link java script-->
     <script src="./js/script.js"></script>
 </body>
 </html>
